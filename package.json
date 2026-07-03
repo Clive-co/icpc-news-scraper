@@ -1,0 +1,7 @@
+{
+  "name": "icpc-news-scraper",
+  "type": "module",
+  "private": true,
+  "scripts": { "scrape": "node scripts/scrape-news.mjs" },
+  "dependencies": { "cheerio": "^1.0.0" }
+}
