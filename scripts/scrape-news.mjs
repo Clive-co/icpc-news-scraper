@@ -1,6 +1,8 @@
 import fs from "fs/promises";
 import * as cheerio from "cheerio";
 
+//scrape news from ICPC website and save to data/news.json
+
 const SITE = "https://icpc.gov.ng";
 const OUTPUT_PATH = "data/news.json";
 const MAX_ITEMS = 6;
